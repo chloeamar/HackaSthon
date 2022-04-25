@@ -43,6 +43,23 @@ Then, you can start registering your own data. To do that, you need to push the 
 ![alt text](https://github.com/danielAmar02/HackaSthon/blob/main/Recording.gif?raw=true)
 
 
+Be careful, when you save your data try to divide them into a "Drink" folder and a "Normal" ones ("Norma" stands for not drinking samples).
+
+
+
+# Questions
+
+\begin{enumerate}
+    \item First, let's play with the smartwatch ! Please, try to collect 20 samples (10 samples when your drink and 10 samples when you don`t drink). In the meantime, the other members of the team can access on the githublink the samples we created for the challenge.
+    \item Plot in 3D some of the samples you generated ? Is the signal noisy ? Why ? Try to make it much more readable. 
+    \item Counting your samples, we have around 120 samples : 60 positive samples (drink) and 60 negative samples (not drinking). According to you, what will be the main difficulties regarding the classification we want to make.
+    \textit{Bonus: Provide 2 ways to improve already classification}
+    \item Create a Train datasets and one Test datase
+    \item Use a stastical or Machine learning ways in order to classify 
+    \item In the  github file, we implemented a very basic LSTM model which is often used for time series. We made a 60\% prediction and thus outperformed the random threshold of 50\%. Try to improve it as much as you can (hyperparameter optimization, using much more complicated models, using stratified K-fold cross validation,...).  
+
+\end{enumerate}
+
 
 
 
