@@ -20,8 +20,7 @@ First, try to build the smartwatch and tie it to one of yours wrists.
 
 Be careful, orientation matters. 
 
-[Uploading image001.jpg…]()
-
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 
 
