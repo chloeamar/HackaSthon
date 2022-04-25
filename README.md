@@ -27,19 +27,20 @@ Be careful, orientation matters. It should be done like below.
 ![alt text](https://github.com/danielAmar02/HackaSthon/blob/main/image002.jpg?raw=true)
 
 
+Then, try to connect it to your computer using the cables. Once, it is connected, you should install in the Mass Storage either the file IIS3DWB_SDCard_L432.bin or either the file IIS3DWB_SDCard_L412.bin given the board you are using (it is written on the board, for instance you should use L432 for the example here). 
+
+
+Once this is done. It should be like this:
+
+
+![alt text](https://github.com/danielAmar02/HackaSthon/blob/main/Ready.gif?raw=true)
 
 
 
-Then, try to connect it to your computer using the cables. You should install either the file "" if you have the board "" or the file "" if you have the board "". 
 
+Then, you can start registering your own data. To do that, you need to push the button during approximatively 2 seconds. Once this is done you have 2 seconds before it starts to record your movements during 4 seconds. When it records, the LED should blink like this:
 
-Once this is done. you can start register your own data. 
-
-
-
-
-To do that, you need to push the button during approximatively 2 seconds. Once this is done you have 2 seconds before it starts to record your movements during 4 seconds. If it works the LED should blink like this.
-
+![alt text](https://github.com/danielAmar02/HackaSthon/blob/main/Recording.gif?raw=true)
 
 
 
