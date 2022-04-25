@@ -20,10 +20,11 @@ First, try to build the smartwatch and tie it to one of yours wrists.
 
 Be careful, orientation matters. 
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/danielAmar02/HackaSthon/blob/main/image001.jpg?raw=true)
 
 
 
+![alt text](https://github.com/danielAmar02/HackaSthon/blob/main/image002.jpg?raw=true)
 
 
 
