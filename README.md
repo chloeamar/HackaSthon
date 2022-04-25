@@ -2,13 +2,15 @@
 
 Dear students from ENSAE, CentraleSupelec and Mines de Paris, first and foremost welcome to Israel !!! We are very glad to have you here and hope that you will enjoy your trip and this particular day. 
 
-The goal of this Hackathon is to do hand-to-mouth detection using Machine Learning or Deep Learning. More specifically, you will have to detect if someone is driking thanks to a smartwatch we built using an accelerometer. 
+The goal of this Hackathon is to do hand-to-mouth detection using Machine Learning or Deep Learning. More specifically, you will have to detect if someone is driking thanks to a smartwatch we built using a ST accelerometer. 
 
 This is a competition but we do not expect neither you to build an AI algorithm from scratch nor to do boring stuffs. We only want you to have fun and to see how your skills can be applied in a company such as STMicroelectronics. Moreover, we decided to challenge you by asking some opened questions. There is no bad answer and we really encourage you to think completely out of the box. Be Israeli !
 
-Since the competencies of the 3 schools are different and the level between students is heterogeneous, we will ask you both technical and qualitative questions (we do not have the answers for some of them...). \\
+Since the skills of the 3 schools are different and the level between students is heterogeneous, we will ask you both technical and qualitative questions. 
 
-The topic of the challenge will be hand-to-mouth detection using Machine Learning orDeep Learning. We tried in this Hackathon to make things as simple as possible since most of the students have never studied DL. Again, do not hestitate to ask questions !
+The topic of the challenge will be hand-to-mouth detection using Machine Learning or Deep Learning. We tried to make things as simple as possible since most of the students have never studied DL. Again, do not hestitate to ask questions !
+
+Once you have finished, please send me your results (ppt, notebook, .py,...) at daniel.amar@st.com.
 
 
 # 1st Step : Using the Board
@@ -43,23 +45,42 @@ Then, you can start registering your own data. To do that, you need to push the 
 ![alt text](https://github.com/danielAmar02/HackaSthon/blob/main/Recording.gif?raw=true)
 
 
-Be careful, when you save your data try to divide them into a "Drink" folder and a "Normal" ones ("Norma" stands for not drinking samples).
+Then, remove gently the SD card and put it in the usb port. You should be able to read your data. Be careful, when you save your data and try to divide them into a "Drink" folder and a "Normal" ones ("Normal" stands for not drinking samples).
 
 
 
-# Questions
+## Technical Questions
 
-\begin{enumerate}
-    \item First, let's play with the smartwatch ! Please, try to collect 20 samples (10 samples when your drink and 10 samples when you don`t drink). In the meantime, the other members of the team can access on the githublink the samples we created for the challenge.
-    \item Plot in 3D some of the samples you generated ? Is the signal noisy ? Why ? Try to make it much more readable. 
-    \item Counting your samples, we have around 120 samples : 60 positive samples (drink) and 60 negative samples (not drinking). According to you, what will be the main difficulties regarding the classification we want to make.
-    \textit{Bonus: Provide 2 ways to improve already classification}
-    \item Create a Train datasets and one Test datase
-    \item Use a stastical or Machine learning ways in order to classify 
-    \item In the  github file, we implemented a very basic LSTM model which is often used for time series. We made a 60\% prediction and thus outperformed the random threshold of 50\%. Try to improve it as much as you can (hyperparameter optimization, using much more complicated models, using stratified K-fold cross validation,...).  
 
-\end{enumerate}
+1. First, let's play with the smartwatch ! Please, try to collect 10-20 samples (5-10 samples when your drink and 5-10 samples when you don`t drink). In the meantime, the other members of the team can access the github folder **Input** where we add samples we created for the challenge.
 
+
+2. Plot in 3D some of the samples you generated ? Is the signal noisy ? Why ? Try to make it much more readable. 
+
+
+3. In the Input folder, we have around 120 samples : 60 positive samples (drink) and 60 negative samples (not drinking). According to you, what will be the main difficulties regarding the classification we want to make.
+Bonus: Provide 2 ways to improve already classification
+
+4. Create a Train datasets and one Test datase
+
+5. Use a stastical or Machine learning approach to classify 
+
+6. In the notebook, we implemented a very basic LSTM model which is often used for time series. We made a 60\% prediction and thus outperformed the random threshold of 50\%. Try to improve it as much as you can (hyperparameter optimization, using much more complicated models, stratified K-fold cross validation,...).  
+
+## Qualitative Questions
+
+Imagine and draw a smartwatch for this specific application. According to you, in which concrete applications (detecting 
+
+
+## Opened and Bonus Questions
+
+If you have reached this part, congratulations ! We will now talk about opened questions. Be as inventive as you can, there is no bad answer. For these questions do not hesitate to reach Gidi Mizrahi. 
+
+1. ST is working a lot with MEMS. To make it very short, MEMS are sensors and they are composed of Microphone, Gyrometer, Accelerometer, Pressure & Temperature sensors, Magnetometer. What is the next MEMS ? 
+
+2. How can we improve MEMS ?
+
+3. Imagine a new applications/technology in which you could use data from movements measured by MEMS. 
 
 
 
