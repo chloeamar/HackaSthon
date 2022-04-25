@@ -18,13 +18,36 @@ The topic of the challenge will be hand-to-mouth detection using Machine Learnin
 
 First, try to build the smartwatch and tie it to one of yours wrists.
 
-Be careful, orientation matters. 
+Be careful, orientation matters. It should be done like below.
 
 ![alt text](https://github.com/danielAmar02/HackaSthon/blob/main/image001.jpg?raw=true)
 
 
 
 ![alt text](https://github.com/danielAmar02/HackaSthon/blob/main/image002.jpg?raw=true)
+
+
+
+
+
+Then, try to connect it to your computer using the cables. You should install either the file "" if you have the board "" or the file "" if you have the board "". 
+
+
+Once this is done. you can start register your own data. 
+
+
+
+
+To do that, you need to push the button during approximatively 2 seconds. Once this is done you have 2 seconds before it starts to record your movements during 4 seconds. If it works the LED should blink like this.
+
+
+
+
+
+
+
+
+
 
 
 
