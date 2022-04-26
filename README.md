@@ -57,15 +57,17 @@ Then, remove gently the SD card and put it in the usb port. You should be able t
 
 2. Plot in 3D some of the samples you generated ? Is the signal noisy ? Why ? Try to make it much more readable. 
 
-
 3. In the Input folder, we have around 120 samples : 60 positive samples (drink) and 60 negative samples (not drinking). According to you, what will be the main difficulties regarding the classification we want to make.
 Bonus: Provide 2 ways to improve already classification
 
-4. Create a Train datasets and one Test datase
+4. Create a Train datasets and one Test dataset. 
+For simplicity, normalize your data. Be careful, you should calculte mean and std only on the train dataset.
 
 5. Use a stastical or Machine learning approach to classify 
 
-6. In the notebook, we implemented a very basic LSTM model which is often used for time series. We made a 60\% prediction and thus outperformed the random threshold of 50\%. Try to improve it as much as you can (hyperparameter optimization, using much more complicated models, stratified K-fold cross validation,...).  
+6. In the notebook, we implemented a very basic LSTM model which is often used for time series. Make it run. 
+ 
+7. We made a 55%-60\% prediction which barely outperformed the random threshold of 50\% (check it). Try to improve it as much as you can. If you don't have time, try to suggest ideas.  
 
 ## Qualitative Questions
 
