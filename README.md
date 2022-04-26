@@ -10,7 +10,7 @@ Since the skills of the 3 schools are different and the level between students i
 
 The topic of the challenge will be hand-to-mouth detection using Machine Learning or Deep Learning. We tried to make things as simple as possible since most of the students have never studied DL. Again, do not hestitate to ask questions !
 
-Once you have finished, please send me your results (ppt, notebook, .py,...) at daniel.amar@st.com.
+Once you have finished, please send me your results (ppt, notebook, .py,...) at daniel.amar@st.com. We strongly recommend to use Google Colab.
 
 
 # 1st Step : Using the Board
